@@ -1,0 +1,24 @@
+{
+  "name": "API-NodeJs",
+  "version": "1.0.0",
+  "description": "Projeto de api com NodeJs",
+  "main": "app.js",
+  "author": "Daniel Filho",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.4",
+    "multer": "^1.4.2",
+    "package.json": "^2.0.1",
+    "python": "^0.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
